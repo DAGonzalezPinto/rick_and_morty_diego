@@ -1,0 +1,56 @@
+.buttons{
+    border: 2px solid rgb(120, 228, 31);
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgba(1, 8, 0, 0.877);
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    justify-content: center;
+    width: 100px;
+    box-shadow: 0 0 5px black;
+}
+.buttons:hover{
+    box-shadow: 0 0 10px white;
+    transition: 0.5;
+}
+.buttonText{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    background-color: rgba(28, 155, 11, 0);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.sep{
+    display:flex;
+    width: 600px;
+    justify-content: center;
+}
+.div{
+    margin:30px;
+}
+.logOut{
+    border: 2px solid rgb(120, 228, 31);
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgba(1, 8, 0, 0.877);
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    justify-content: center;
+    width: 100px;
+    box-shadow: 0 0 5px black;
+}
+.logOut:hover{
+    box-shadow: 0 0 10px white;
+    transition: 0.5;
+}
+.divLogOut{
+    display:flex;
+    margin-left: 200px;
+    padding: 1px;
+}

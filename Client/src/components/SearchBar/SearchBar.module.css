@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    margin: auto;
+    width: auto;
+    margin-top: 22px;
+    border-radius: 20px; 
+}
+.container input{
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgba(1, 8, 0, 0.877);
+    border: 2px solid rgb(120, 228, 31);
+    font-size: 18px;
+    width: 400px;
+    height: 35px;
+    color: white;
+    box-shadow: 0 0 5px black;
+}
+.container input:hover{
+    box-shadow: 0 0 10px white;
+    transition: 0.5;
+}
+.container button{
+    border-radius: 5px;
+    border: 2px solid rgb(120, 228, 31);
+    height: 35px;
+    background-color: rgba(1, 8, 0, 0.877);
+    color: white;
+    margin-top: auto;
+    font-size: 15px;
+    justify-content: center;
+    width: 80px;
+    box-shadow: 0 0 5px black;
+}
+.container button:hover{
+    box-shadow: 0 0 10px white;
+    transition: 0.5;
+}
+.sep{
+    margin-left: 10px;
+    justify-content: center;
+    display: flex;
+}
